@@ -40,14 +40,16 @@ const DrawingWidget: React.FC<DrawingWidgetProps> = ({
   return (
     <div className="drawing-widget">
       <ReactImageAnnotate
-        selectedImage={selectedImage}
-        taskDescription={taskDescription}
-        images={images}
-        regionClsList={regionClsList}
-        enabledTools={enabledTools}
-        annotations={annotations}
-        onAnnotationsUpdate={handleAnnotationUpdate}
-        onSave={handleSaveAnnotations}
+        labelImages
+        regionClsList={["Alpha", "Beta", "Charlie", "Delta"]}
+        regionTagList={["tag1", "tag2", "tag3"]}
+        images={[
+          {
+            src: "https://placekitten.com/408/287",
+            name: "Image 1",
+            regions: [],
+          },
+        ]}
       />
     </div>
   );
