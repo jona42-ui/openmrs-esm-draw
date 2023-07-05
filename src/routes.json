@@ -8,19 +8,11 @@
   },
   "pages": [
     {
-      "component": "draw",
+      "component": "drawPage",
       "route": "draw",
       "online": true,
       "offline": true
     }
   ],
-  "extensions": [
-    {
-      "name": "",
-      "slot": "",
-      "component": "",
-      "online": true,
-      "offline": true
-    }
-  ]
+  "extensions": []
 }
