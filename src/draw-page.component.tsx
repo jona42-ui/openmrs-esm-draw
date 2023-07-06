@@ -6,8 +6,7 @@ const DrawPage: React.FC = () => {
 
   return (
     <div>
-      <h1>Draw Page</h1>
-      <p>Welcome to the Draw Page!</p>
+      <p>OpenMRS Draw Desk</p>
       <DrawingWidget selectedImage={""} taskDescription={""} images={[]} />
       {/* Add your draw page content and components here */}
     </div>
